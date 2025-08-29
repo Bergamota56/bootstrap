@@ -14,7 +14,7 @@
   </head>
   <body>
     
-    <div class="conteiner form-container">
+    <div class="container form-container bg-success">
         <h2 class="text-center mb-4">formulario completo - bootstrap 4.1</h2>
         <p class="text-center text-muted mb-4">
             porra de todos os tamanhos e tipos de campos
@@ -23,10 +23,44 @@
         <form action="">
             <div class="form-section">
                 <h4><i class="fas fa-sliders-h">tamanhos de inputas</i></h4>
+
+                <div class="form-group">
+                  <label for="imputLarge"> Campo teto(grande)</label>
+                  <input type="text" class="form-control form-control-lg">
+                </div>
+
                 <div class="form-group">
                   <label for="imputDefault"> Campo médio</label>
                   <input type="text" class="form-control">
                 </div>
+
+                <div class="form-group">
+                  <label for="imputSmall"> Campo piniquíno</label>
+                  <input type="text" class="form-control form-control-sm">
+                </div>
+
+
+                <div class="form-row bg-warning">
+                  <div class="col-md-8 mb-3">
+                    <label for="imputDefault"> Campo médio</label>
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+
+
+                <div class="form-row bg-warning">
+                  <div class="col-md-4 mb-3">
+                    <label for="imputDefault"> Campo médio</label>
+                    <input type="text" class="form-control">
+                  </div>
+                  <div class="col-md-2 mb-3">
+                    <label for="imputDefault"> Campo médio</label>
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+
+
+
             </div>
         </form>
     </div>
