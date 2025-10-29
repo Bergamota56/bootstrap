@@ -89,6 +89,7 @@
       #content.active {
         margin-left: 250px;
       }
+
     }
   </style>
 </head>
@@ -126,16 +127,16 @@
         <a href="#"><i class="fas fa-home mr-2"></i> Dashboard</a>
       </li>
       <li>
-        <a href="#"><i class="fas fa-users mr-2"></i> Clientes</a>
+        <a href="#clientes"><i class="fas fa-users mr-2"></i> Clientes</a>
       </li>
       <li>
-        <a href="#"><i class="fas fa-box mr-2"></i> Produtos</a>
+        <a href="#produtos"><i class="fas fa-box mr-2"></i> Produtos</a>
       </li>
       <li>
-        <a href="#"><i class="fas fa-chart-line mr-2"></i> Relatórios</a>
+        <a href="#relatorios"><i class="fas fa-chart-line mr-2"></i> Relatórios</a>
       </li>
       <li>
-        <a href="#"><i class="fas fa-cog mr-2"></i> Configurações</a>
+        <a href="#config"><i class="fas fa-cog mr-2"></i> Configurações</a>
       </li>
     </ul>
   </nav>
@@ -173,7 +174,9 @@
       </div>
     </div>
 
-    <h2>Clientes:</h2>
+    <h2 id="clientes" class="text-center">- - - - - - - - - - - - - - - -</h2>
+
+    <h2 >Clientes:</h2>
     <div class="row justify-content-center">
         <div class="col-md-3 text-center mb-4 team-member">
           <img src="oxe.gif" alt="Cliente1" class="rounded-circle">
@@ -189,6 +192,8 @@
         </div>
       </div>
       <li class="text-center">POR QUE O SERJ ESTÁ AQUI</li>
+
+      <h2 id="produtos" class="text-center">- - - - - - - - - - - - - - - -</h2>
 
       <h2>Produtos:</h2>
       <section id="features" class="py-5 bg-primary">
@@ -229,11 +234,25 @@
         </div>
       </section>
 
+      <h2 id="relatorios" class="text-center">- - - - - - - - - - - - - - - -</h2>
+
       <h2>Relatório:</h2>
-      <img src="Stonks.png" alt="">
-      <li class="text-center">Muito bem meus amigos.... </li>
+      <div class="stonks">
+        <img src="Stonks.png" alt="">
+      </div>
+      <li class="text-center">
+        <h3>Muito bem meus amigos.... </h3>
+      </li>
   </div>
 
+  <style>
+    .stonks {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+
+    }
+  </style>
   <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
